@@ -1,0 +1,48 @@
+body {
+  background: #544a7d;
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);
+  background: linear-gradient(to right, #ffd452, #544a7d);
+}
+
+.titulos {
+  color: rgb(182, 239, 238);
+  font-size: 25px;
+}
+
+#titulo {
+  margin-top: 70px;
+}
+
+#cardDigimon {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 575px) {
+  h2 {
+    display: none;
+  }
+}
+
+.card-size {
+  width: 30rem;
+}
+
+/* Media query de la Card para pantallas pequeñas */
+@media (max-width: 576px) {
+  .card-size {
+    width: 23rem;
+  }
+}
+
+/* Media query de la Card para pantallas aún más pequeñas */
+@media (max-width: 375px) {
+  .card-size {
+    width: 15rem;
+  }
+}
